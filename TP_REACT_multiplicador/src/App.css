@@ -1,0 +1,40 @@
+body{
+  text-align: center;
+  background-color: hsl(0, 0%, 18.82%);
+}
+
+input{
+  width: 125px;
+  margin:35px;
+}
+
+h1{
+  color: white;
+  font-family: inherit;
+  font-size: 60px;
+}
+
+h2{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+h3{
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+h4{
+  font-weight: bold;
+  color:white;
+}
+
+button{
+  color: rgb(240, 235, 230);
+  background-color: rgb(68, 70, 69);
+  font-size: 20px;
+  width: 220px;
+  margin: 11px;
+}

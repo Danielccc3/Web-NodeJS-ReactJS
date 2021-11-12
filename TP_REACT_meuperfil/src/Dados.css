@@ -1,0 +1,53 @@
+.Dados{
+    background-color: hsl(0, 0%, 18.82%);
+}
+
+nome{
+    font-size: x-large;
+}
+
+h1 {
+    font-size: larger;
+    text-align: absolute;
+    color: white;
+}
+
+h2 {
+    font-size: larger;
+    text-align: absolute;
+    color: white;
+}
+
+h3 {
+    font-size: larger;
+    text-align: absolute;
+    color: white;
+}
+
+h4 {
+    font-size: larger;
+    text-align: absolute;
+    color: white;
+}
+
+h5 {
+    font-size: larger;
+    text-align: absolute;
+    color: white;
+}
+button {
+    font-size:16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 16px;
+    color: rgb(236, 241, 247);
+    background-color: rgb(94, 93, 93);
+    padding: 8px 32px;
+    margin: 4px;
+    font-family: inherit;
+    line-height: inherit;
+    cursor: pointer;
+  }
+button:hover{
+    background-color: rgb(77, 74, 74);
+}
