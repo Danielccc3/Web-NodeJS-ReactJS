@@ -9,7 +9,7 @@ interface IRecord{
     id: number;
     name: string;
     ra: string;
-    nascimento: Date;
+    nascimento: string;
     address: string;
     registered: boolean;
     age: number;
@@ -88,7 +88,7 @@ const Records: React.FC = () => {
                                 <td>
                                     <Button size="sm" disabled={!records.registered} variant="primary" onClick={() => editRecord(records.id)}>Editar</Button>{' '}
                                     <Button size="sm" disabled={!records.registered} variant="success" onClick={() => finishedRegistered(records.id)}>Desmatricular</Button>{' '}
-                                    <Button size="sm" disabled={!records.registered} variant="warning" onClick={() => viewRecord(records.id)}>Visualizar</Button>{' '}
+                                    <Button size="sm" variant="warning" onClick={() => viewRecord(records.id)}>Visualizar</Button>{' '}
                                     <Button size="sm" variant="danger" onClick={() => deleteRecord(records.id)}>Remover</Button>{' '}
                                 </td>
                             </tr>    

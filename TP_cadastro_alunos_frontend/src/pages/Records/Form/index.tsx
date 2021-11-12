@@ -7,7 +7,7 @@ import { useHistory, useParams } from 'react-router-dom';
 interface IRecord{
     name: string;
     ra: string;
-    nascimento: string;
+    nascimento: any;
     address: string;
     age: number;
 }
@@ -20,7 +20,7 @@ const Records: React.FC = () => {
     const [model, setModel] = useState<IRecord>({
         name: "",
         ra: "",
-        nascimento: "",
+        nascimento: new Date(),
         address: "",
         age: 0o0
     })
@@ -89,7 +89,7 @@ const Records: React.FC = () => {
 
                     <Form.Group>
                         <Form.Label>Data de Nascimento</Form.Label>
-                        <Form.Control type="text" name="nascimento" value={model.nascimento} onChange={(e:ChangeEvent<HTMLInputElement>) => updatedModel(e)}/>
+                        <Form.Control type="date" name="nascimento" value={model.nascimento} onChange={(e:ChangeEvent<HTMLInputElement>) => updatedModel(e)}/>
                     </Form.Group>
 
                     <Form.Group>

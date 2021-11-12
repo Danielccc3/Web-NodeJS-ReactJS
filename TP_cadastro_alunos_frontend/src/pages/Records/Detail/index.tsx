@@ -76,7 +76,7 @@ const Detail: React.FC = () => {
             <strong>Endereço </strong> - {record?.address}
             <br />
             <br/>
-            {record?.registered ? "Desmatriculado(a)" : "Matriculado(a)"}
+            {record?.registered ? "Matriculado(a)" : "Desmatriculado(a)"}
             <br />
           </Card.Text>
         </Card.Body>
